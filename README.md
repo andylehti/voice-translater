@@ -8,8 +8,7 @@ This repository uses `PyAudio`, `langdetect`, and `googletrans` to generate tran
 echo -e "SpeechRecognition\npyttsx3\nlangdetect\ngoogletrans==4.0.0-rc1\nmoviepy\ntqdm\nrotary_embedding_torch\ninflect\nprogressbar\neinops\nunidecode\nscipy\nlibrosa\ntransformers\ntokenizers" > requirements.txt
 pip install -r requirements.txt
 git clone https://github.com/neonbjb/tortoise-tts.git
-cd tortoise-tts
-python setup.py install
+cd tortoise-tts && python3 setup.py install
 ```
 
 
