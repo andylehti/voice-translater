@@ -5,6 +5,7 @@ googletrans==4.0.0-rc1
 moviepy
 tqdm
 rotary_embedding_torch
+ffmpeg
 inflect
 progressbar
 einops
