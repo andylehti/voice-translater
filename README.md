@@ -4,11 +4,14 @@ This repository uses `PyAudio`, `langdetect`, and `googletrans` to generate tran
 
 ## Installation
 
-To get started, you'll need Python 3.7 or newer. To install pyaudio, use the commands below.
+```
+echo -e "SpeechRecognition\npyttsx3\nlangdetect\ngoogletrans==4.0.0-rc1\nmoviepy\ntqdm\nrotary_embedding_torch\ninflect\nprogressbar\neinops\nunidecode\nscipy\nlibrosa\ntransformers\ntokenizers" > requirements.txt
+pip install -r requirements.txt
+git clone https://github.com/neonbjb/tortoise-tts.git
+cd tortoise-tts
+python setup.py install
+```
 
-## on MacOS using [Homebrew](https://brew.sh/)
-    brew install portaudio
-    pip install pyaudio
 
 ## Usage
 
