@@ -3,3 +3,13 @@ pyttsx3
 langdetect
 googletrans==4.0.0-rc1
 moviepy
+tqdm
+rotary_embedding_torch
+inflect
+progressbar
+einops
+unidecode
+scipy
+librosa
+transformers
+tokenizers
